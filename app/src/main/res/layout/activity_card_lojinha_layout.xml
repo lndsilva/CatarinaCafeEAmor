@@ -20,25 +20,18 @@
 
             <ImageView
                 android:id="@+id/imgLogo"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/acessorios" />
+                android:src="@drawable/acessorios_m" />
+
 
             <TextView
+                android:fontFamily="@font/rubikvariablefont_wght"
                 android:id="@+id/txtTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:text="Lojinha do Catarina"
-                android:textColor="#FFF"
-                android:textSize="25sp" />
-
-            <TextView
-                android:id="@+id/txtSubTitulo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_centerInParent="true"
                 android:text="Lojinha do Catarina"
                 android:textColor="#FFF"
                 android:textSize="25sp" />
@@ -47,19 +40,24 @@
                 android:id="@+id/txtDescricao"
                 android:layout_width="200sp"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/txtTitulo"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:text="Tudo e mais um pouco para te proporcionar o melhor do café."
                 android:textAlignment="center"
-                android:textColor="#FFF"
-                android:textSize="15sp" />
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCompreAgora"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDescricao"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:text="Compre Agora" />
+                android:text="Compre Agora"
+                android:textColor="#FFF" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
-
 </LinearLayout>
