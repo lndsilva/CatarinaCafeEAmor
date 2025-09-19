@@ -27,11 +27,11 @@
 
 
             <TextView
-                android:fontFamily="@font/rubikvariablefont_wght"
                 android:id="@+id/txtTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:fontFamily="@font/rubikvariablefont_wght"
                 android:text="Lojinha do Catarina"
                 android:textColor="#FFF"
                 android:textSize="25sp" />
