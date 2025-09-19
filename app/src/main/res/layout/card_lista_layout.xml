@@ -13,6 +13,37 @@
         android:layout_width="match_parent"
         android:layout_height="200dp">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/plano_fundo_duas_cores" />
+
+            <TextView
+                android:id="@+id/txtBrett"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:text="Brett Shirvani"
+                android:textColor="#FFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10sp"
+                android:text="06 September"
+                android:textColor="#FFF"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
