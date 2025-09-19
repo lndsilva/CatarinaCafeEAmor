@@ -42,6 +42,36 @@
                 android:textColor="#FFF"
                 android:textSize="15sp" />
 
+            <TextView
+                android:id="@+id/txtRevolutionary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtBrett"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="70sp"
+                android:text="Revolutionary"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtPrototyping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtRevolutionary"
+                android:layout_marginLeft="10sp"
+                android:text="Prototyping Techniques"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/baseline_turned_in" />
+
         </RelativeLayout>
 
     </com.google.android.material.card.MaterialCardView>
