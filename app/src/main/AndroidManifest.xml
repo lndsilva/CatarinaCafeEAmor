@@ -12,28 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
-            android:name=".CardListaActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".CardLojinhaActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".CardViewActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".MainActivity"
+            android:name=".ProdutosActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".CardListaActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".CardLojinhaActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".CardViewActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 
